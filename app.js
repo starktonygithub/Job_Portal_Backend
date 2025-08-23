@@ -14,7 +14,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: [process.env.FRONTEND_URL,"venerable-biscochitos-bf7e36.netlify.app"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
