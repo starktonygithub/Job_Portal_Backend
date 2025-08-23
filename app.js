@@ -10,6 +10,7 @@ import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
 
 const app = express();
+app.use(express.static('dist'));
 config({ path: "./config/config.env" });
 
 app.use(
