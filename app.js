@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",              // local frontend
-      "https://venerable-biscochitos-bf7e36.netlify.app", // deployed frontend
+      "https://venerable-biscochitos-bf7e36.netlify.app","https://careercatalystjobportal.netlify.app", // deployed frontend
       process.env.FRONTEND_URL              // from .env if set
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],  // plural
